@@ -1,0 +1,89 @@
+#dong-header {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  padding-top: 8px;
+}
+
+.header-top,
+.header-middle {
+  width: 100%;
+  position: relative;
+  max-width: 1512px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.header-top .header-top__left span {
+  color: #999;
+  padding: 0 10px;
+  cursor: pointer;
+  border-right: 1px solid #e4e3e3;
+}
+
+.header-top .header-top__right span {
+  color: #999;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+#dong-header .header-middle {
+  padding: 35px;
+  text-align: center;
+}
+
+#dong-header .header-middle span {
+  letter-spacing: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(35, 35, 35);
+}
+
+#dong-header .header-bottom {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+}
+
+.header-bottom .header-bottom__wrap {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1460px;
+  position: relative;
+  height: 50px;
+}
+
+.header-bottom .header-bottom__wrap ul li a {
+  line-height: 50px;
+  height: 50px;
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.header-bottom .header-bottom__wrap ul li {
+  float: left;
+  width: 120px;
+  height: 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.header-bottom .header-bottom__wrap ul li ul li {
+  position: relative;
+  display: none;
+  background: #eeecec;
+  width: 140px;
+}
+
+.header-bottom__wrap ul li:hover ul li {
+  display: block;
+}
